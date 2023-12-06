@@ -16,3 +16,5 @@
 # go mod tiny
 
     - tell go to search for any packages within our project
+
+# Can test the first line of code with curl, point to the port
