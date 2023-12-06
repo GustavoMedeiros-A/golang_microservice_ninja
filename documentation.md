@@ -29,3 +29,7 @@ And change the main to get the app to run the project
 
     - go get github.com/redis/go-redis/v9 (to install redis)
     - docker run -p 6379:6379 redis:latest (run in docker)
+
+
+# Install uuid in the project to increment the values in model
+    - go get github.com/google/uuid
