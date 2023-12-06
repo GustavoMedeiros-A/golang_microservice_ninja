@@ -18,3 +18,14 @@
     - tell go to search for any packages within our project
 
 # Can test the first line of code with curl, point to the port
+
+
+After create and config the first line of code, create a application folder and add the app and the router configurations.
+
+And change the main to get the app to run the project
+
+
+# Now, we'll install redis to use as database
+
+    - go get github.com/redis/go-redis/v9 (to install redis)
+    - docker run -p 6379:6379 redis:latest (run in docker)
